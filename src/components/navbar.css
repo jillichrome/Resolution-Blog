@@ -1,27 +1,16 @@
-#nav ul {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-  overflow: hidden;
+#nav {
   background-color: #80120E;
 }
-#nav #title {
-  display: block;
+#title {
   padding: 10px 15px;
   float: left;
   font-weight: bold;
   color: #ffffff;
+  background-color: #80120E;
 }
-#nav #title i {
+#title i {
   color: #00B33E;
 }
-#nav li {
-  float: right;
-}
-#nav li a {
-  display: block;
-  padding: 8px 15px;
-  font-weight: bold;
-  color: #ffffff;
-  text-decoration: underline;
+.menu {
+  margin-left: 90%;
 }

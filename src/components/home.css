@@ -1,8 +1,10 @@
 .header {
+  clear: none;
   display: flex;
-  flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+  padding: 10px;
+  overflow: auto;
   background-color: #80120E;
 }
 .header img p {
@@ -19,12 +21,12 @@
   text-align: center;
   height:auto;
 }
-.home {
+.home-content {
   margin-top: 1%;
   text-align: center;
   justify-content: center;
 }
-.home h1 {
+.home-content h1 {
   font-weight: bold;
 }
 .column {
