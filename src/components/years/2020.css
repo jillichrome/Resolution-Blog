@@ -1,7 +1,56 @@
 .header {
+  clear: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  overflow: auto;
   background-color: #80120E;
 }
-.header h1 p {
+.header img p {
+  border-radius: 8px;
+}
+.header p {
+  align-self: self-start;
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffffff;
+}
+.header span {
+  display: inline;
   text-align: center;
+  height:auto;
+}
+.content h1 {
+  text-align: center;
+  font-weight: bold;
+  text-decoration: underline;
+}
+.content p {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+.card {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4);
+  transition: 0.3s;
+  border-radius: 5px;
+  padding-bottom: 10px;
+  max-width: 720px;
+  margin-left: 35%;
+}
+.card:hover {
+  box-shadow: 0 16px 32px 0 rgba(0,0,0,0.4);
+}
+.container {
+  padding: 2px 16px;
+  background-color: #FF6E69;
+}
+.container h2 {
+  text-align: center;
+  color: #ffffff;
+  font-weight: bold;
+}
+.container p {
   color: #ffffff;
 }
