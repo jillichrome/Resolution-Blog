@@ -1,7 +1,7 @@
 import React from 'react';
-import './year.css';
+import './2020.css';
 
-export default class Years extends React.Component {
+export default class Year20 extends React.Component {
   render() {
     return(
       <div className='header'>
