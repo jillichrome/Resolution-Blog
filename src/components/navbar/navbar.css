@@ -1,16 +1,33 @@
-#nav {
+.nav {
   background-color: #80120E;
 }
-#title {
+.title {
   padding: 10px 15px;
   float: left;
   font-weight: bold;
   color: #ffffff;
   background-color: #80120E;
 }
-#title i {
+.title i {
   color: #00B33E;
 }
 .menu {
   margin-left: 90%;
+}
+
+@media (max-width:991px) {
+  .nav {
+    overflow: auto;
+  }
+  .nav > .menu {
+    margin-left: 78%;
+  }
+}
+@media(max-width:767px) {
+  .nav {
+    overflow: auto;
+  }
+  .nav > .menu {
+    margin-left: 68%;
+  }
 }

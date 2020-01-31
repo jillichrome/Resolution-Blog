@@ -48,3 +48,9 @@ li:hover {
    right:6px;
    top:18px;
 }
+
+@media (max-width: 991px) {
+  .dropdown > .button {
+    display: inline-block;
+  }
+}

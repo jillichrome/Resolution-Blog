@@ -3,7 +3,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px;
   overflow: auto;
   background-color: #80120E;
 }
@@ -19,10 +18,10 @@
 .header span {
   display: inline;
   text-align: center;
-  height:auto;
 }
 .home-content {
-  margin-top: 1%;
+  margin-top: 5%;
+  margin-bottom: 5%;
   text-align: center;
   justify-content: center;
 }
@@ -47,8 +46,18 @@ row:after {
   display: table;
   clear: both;
 }
-@media screen and (max-width:600px) {
+@media (max-width:991px) {
   .column {
     width: 100%;
+  }
+  .header {
+    justify-content: space-around;
+  }
+}
+@media (max-width:767px) {
+  .header {
+    display: inline-block;
+    right: 0px;
+    top:0px;
   }
 }
